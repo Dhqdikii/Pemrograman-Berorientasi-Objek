@@ -33,8 +33,8 @@ class Mahasiswa {
 // Kelas utama untuk menjalankan program
 public class MhsTester {
     public static void main(String[] args) {
-
-        System.out.print("\033[H\033[2J");
+ System.out.print("\033[H\033[2J");
+       
         
         // Membuat objek Mahasiswa
         Mahasiswa mahasiswa1 = new Mahasiswa("ANDI", 21, "TEKNIK INFORMATIKA");
